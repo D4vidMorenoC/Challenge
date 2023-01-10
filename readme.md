@@ -30,7 +30,8 @@
 ### Funcionamiento Punto 3
 #### Para ejecutar el punto 3 se escribe en el terminar ```node scriptPunto3.js```, posterior a esto se le preguntara al usuario "Cuantas Monedas Tengo?", en donde el usuario debe ingresar el total de las monedas con las que quiere probar el programa, es necesario entender que solo es posible ingresar numeros para que el programa funcione. Despues de ingresar la cantidad de monedas, se le preguntara al usuario "Que valor tiene la moneda ?" en donde el usuario puede ingresar el valor que va a tener la moneda para el ejercicio. Finalmente el programa el programa va a organizar las monedas de forma acendente y va a empezar a iterar entre las monedas para sumarlas y obtener el cambio que es posible dar, para posteriormente coger el minimo valor que no es posible dar de cambio. 
 ### EJEMPLO Punto 3
-#### Se elige un tamaño de 8 para el arreglo que consta de los numeros [-1,5,3,2,7,3,6,9]. Debido a que el filtrado tiene que eliminar los valores que sean superiores al numero generado concatenado con el mismo (en este caso del valor 1 , se eliminan los valores iguales o superiores a 11), dejando como resultado el cuadrado de los numeros que no superen el valor 11 [1,4,9,9]
+#### Para empezar se selecciona cuantas monedas se tienen , en ejemplo se selecciona un total de 7 monedas. Se elige el valor de cada moneda y se guarda en un arreglo que consta de los valores [1,1,5,1,3,2,7]. Se organizan estos valores y el programa empieza a iterar mostrando el valor minimo de cambio que no se puede dar, que en su caso es el valor 21. Al realizar la suma de todos los numeros entre todos, se observa que se pueden generar cambio de 1 hasta 20, sin embargo el numero 21 no se puede hacer, siendo este numero el menor cambio que no se puede hacer.
+
 
 ![image](https://user-images.githubusercontent.com/97708522/211645935-3c8a523e-693c-40a9-87b0-7e5ff9fec493.png)
 
