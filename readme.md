@@ -7,6 +7,8 @@
 ## Instalacion modulos
 ### Para inicializar los codigos de la prueba es necesario el inicializar el terminal en la carpeta donde se encuentra el proyecto, una vez ahi se debe ejecutar el comando ```npm i```
 
+##Ejecucion Programas
+### En el proyecto se encuentran 3 programas que hacen referencia a cada punto del Challenge, para ejecutarlos es necesario escribir en el terminal de proyecto ```node ``` seguido del nomebre del programa a ejecutar. Ej, para ejecutar el punto 1 se escribe en el terminar ```node scriptPunto.js```, para ejecutar el punto 2 se escribe en el terminar ```node scriptPunto2.js``` y para ejecutar el punto 3 se escribe en el terminar ```node scriptPunto3.js```.
 
 #### Headline H4 
 ##### Headline H5
