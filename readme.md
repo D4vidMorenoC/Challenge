@@ -20,5 +20,17 @@
 #### Para ejecutar el punto 2 se escribe en el terminar ```node scriptPunto2.js```, posterior a esto se le preguntara al usuario "Que tamaño quiere el array?", en donde el usuario debe ingresar el tamaño que quiere para el ingreso de los datos, es necesario entender que solo es posible ingresar numeros para que el programa funcione. Despues de ingresar el tamaño del arreglo, se le preguntara al usuario "Que Numero desea ingresar en la posicion ?" en donde el usuario puede ingresar numeros tanto positivos como negativos. Finalmente el programa arrojara un array nuevo en donde se observaran un arreglo de forma acendente teniendo el cuadrado de cada numero ingresado, filtrando los numeros superiores al numero concatenado con el mismo generado de forma aleatoria.
 ### EJEMPLO Punto 2
 #### Teniendo el valor 1 del generado de forma aleatoria, se elige un tamaño de 8 para el arreglo que consta de los numeros [-1,5,3,2,7,3,6,9]. Debido a que el filtrado tiene que eliminar los valores que sean superiores al numero generado concatenado con el mismo (en este caso del valor 1 , se eliminan los valores iguales o superiores a 11), dejando como resultado el cuadrado de los numeros que no superen el valor 11 [1,4,9,9]
+
 ![image](https://user-images.githubusercontent.com/97708522/211642642-570f7a4a-1138-4286-8775-4d8abef49dd7.png)
+
+
+
+# Solución Punto 3
+#### Para iniciar con la solucion del ejercicio se comienza declarando las variables e ingresando el numero de monedas que el usuario va a tener en un array. Estas monedas se van a organizar de forma acendente dependiendo del valor que el usuario le haya dado. Para que se pueda encontrar el minimo valor de cambio que no se posible dar, se comienza realizando una iteración entre todos los elementos del array en donde estan guardadas las monedas empezando por las de menor denominacion, esto con el fin de poder encontrar el minimo cambio posible entre todas ellas.
+### Funcionamiento Punto 3
+#### Para ejecutar el punto 3 se escribe en el terminar ```node scriptPunto3.js```, posterior a esto se le preguntara al usuario "Cuantas Monedas Tengo?", en donde el usuario debe ingresar el total de las monedas con las que quiere probar el programa, es necesario entender que solo es posible ingresar numeros para que el programa funcione. Despues de ingresar la cantidad de monedas, se le preguntara al usuario "Que valor tiene la moneda ?" en donde el usuario puede ingresar el valor que va a tener la moneda para el ejercicio. Finalmente el programa el programa va a organizar las monedas de forma acendente y va a empezar a iterar entre las monedas para sumarlas y obtener el cambio que es posible dar, para posteriormente coger el minimo valor que no es posible dar de cambio. 
+### EJEMPLO Punto 3
+#### Se elige un tamaño de 8 para el arreglo que consta de los numeros [-1,5,3,2,7,3,6,9]. Debido a que el filtrado tiene que eliminar los valores que sean superiores al numero generado concatenado con el mismo (en este caso del valor 1 , se eliminan los valores iguales o superiores a 11), dejando como resultado el cuadrado de los numeros que no superen el valor 11 [1,4,9,9]
+
+![image](https://user-images.githubusercontent.com/97708522/211645935-3c8a523e-693c-40a9-87b0-7e5ff9fec493.png)
 
