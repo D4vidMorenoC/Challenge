@@ -15,8 +15,9 @@
 ## Funcionamiento Punto 1
 ###Para ejecutar el punto 1 se escribe en el terminar ```node scriptPunto.js```, posterior a esto se le preguntara al usuario "Que tamaño quiere el array?", en donde el usuario debe ingresar el tamaño que quiere para el ingreso de los datos, es necesario entender que solo es posible ingresar numeros para que el programa funcione. Despues de ingresar el tamaño del arreglo, se le preguntara al usuario "Que Numero desea ingresar en la posicion ?" en donde el usuario puede ingresar numeros desde 1 hasta 999. Finalmente el programa arrojara un array nuevo en donde se observaran de nuevo los numeros filtrando los numeros que sean iguales o superiores al numero generado de forma aleatoria. 
 ## EJEMPLO Punto 1
-![image](https://user-images.githubusercontent.com/97708522/211638514-e97dd180-cd64-4081-8a23-0f4597dc021a.png)
+
 
 ###Teniendo el valor 1 del generado de forma aleatoria, se elige un tamaño de 5 para el arreglo que consta de los numeros [90,120,75,35,2]. Debido a que el filtrado tiene que eliminar los valores que sean superiores al numero generado(en este caso del valor 1), se eliminan todos los numeros iguales y se dejan los valores de 0 del 90 y del 120, obteniendo como resultado [0,0]
+![image](https://user-images.githubusercontent.com/97708522/211638514-e97dd180-cd64-4081-8a23-0f4597dc021a.png)
 # Solución Punto 2
 ###### Headline H6
